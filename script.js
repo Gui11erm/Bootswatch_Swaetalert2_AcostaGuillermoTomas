@@ -772,7 +772,7 @@ botonResumen.addEventListener('click', (e) => {
             <div class="card-body">
                 <h5 class="card-title title-resumen">Resumen del Día</h5>
                 <p class="card-text">Ventas del día: ${ventasTotales}</p>
-                <p class="card-text">Monto total acumulado: $${acumVentas}</p>
+                <p class="card-text">Monto total acumulado: $${acumVentas.toFixed(2)}</p>
             </div>  
         </div>
         `

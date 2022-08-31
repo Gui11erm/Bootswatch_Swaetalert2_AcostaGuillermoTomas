@@ -29,6 +29,7 @@ body{
     min-height: 400px;
     max-height: 670px;
     padding: 2rem;
+    color: black;
     margin-left: 2rem;
     box-shadow: 1px 2px 5px rgb(85, 84, 84);
     transition: 0.05s;
@@ -68,10 +69,12 @@ body{
 #divTitleProductos{
     margin: 0px 0px 0px 0px;
     width: 100%;
+    color: black;
 }
 
 .title-productos{
     background-color: rgb(220, 220, 220);
+    color: black;
     margin: 2rem auto 0 2rem;
     padding: 0px 0px 0px 1rem;
     font-size: 40px;
@@ -114,5 +117,9 @@ body{
 .divCarrito {
     margin: 0.5rem;
     padding: 1rem;
-    
+    color: black;
+}
+
+h3{
+    color: black;
 }
